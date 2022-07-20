@@ -1,0 +1,250 @@
+body {
+	background-color: #ccc;
+	position: relative;
+	overflow: hidden;
+	color: black;
+	width: 100vw;
+	height: 100vh;
+}
+* {
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.sp-caution,
+.sp-caution1000 {
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+	.sp-caution {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		background-size: cover;
+		background-attachment: fixed;
+		z-index: 20;
+		font-size: 22px;
+		color: black;
+		p {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			display: block;
+			width: 70%;
+		}
+	}
+	body {
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.sp-caution1000 {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		background-size: cover;
+		background-attachment: fixed;
+		z-index: 10;
+		font-size: 22px;
+		color: black;
+		p {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			display: block;
+			width: 70%;
+		}
+	}
+	body {
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+$arrow-size: 90vh;
+#ue-img,
+#ue-img2,
+#ue-img3,
+#ue-img4,
+#ue-img5,
+#ue-img6 {
+	position: absolute;
+	top: calc((100vh - #{$arrow-size})/2);
+	height: $arrow-size;
+	pointer-events: none;
+	user-select: none;
+	transform-origin: center;
+}
+.img-arrow {
+	pointer-events: none;
+}
+
+$box-size: 40vh;
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	width: $box-size;
+	height: $box-size;
+	font-size: calc(#{$box-size} * 0.7);
+	line-height: $box-size;
+	text-align: center;
+	box-sizing: border-box;
+	user-select: none;
+	&::selection {
+		background: none;
+	}
+}
+
+.buttonWB {
+	position: absolute;
+	left: calc((50vw - 50vh) / 2);
+	top: 50%;
+	transform: translateY(-50%);
+	display: block;
+	width: 20vh;
+	height: 20vh;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 5vh;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.changeW {
+	background-color: white;
+}
+
+.changeWB {
+	background: linear-gradient(90deg, white 0%, white 50%, black 50%, black 100%);
+}
+
+.displayClear {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #66666688;
+	user-select: none;
+	display: none;
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 30vh;
+		max-width: 70vw;
+		-webkit-user-drag: none;
+	}
+}
+#allclear {
+	height: 70vh;
+}
+
+.wrap {
+	font-size: 10vh;
+	position: absolute;
+	bottom: 82vh;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#span-1 {
+	color: black;
+	opacity: 0;
+}
+#span-2 {
+	color: #333;
+	opacity: 0;
+}
+#span-3 {
+	color: #666;
+	opacity: 0;
+}
+#span-4 {
+	color: #999;
+	opacity: 0;
+}
+#span-5 {
+	color: #ccc;
+	opacity: 0;
+}
+#span-6 {
+	color: white;
+	opacity: 0;
+}
+
+.menu-img {
+	position: absolute;
+	bottom: 5vh;
+	right: 5vh;
+	width: 15vh;
+	&:hover {
+		opacity: 0.6;
+	}
+	-webkit-user-drag: none;
+	z-index: 10;
+}
+
+// stage5 
+.box2 {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border: 1px solid black;
+	width: $box-size;
+	height: $box-size;
+	font-size: calc(#{$box-size} * 0.7);
+	padding: auto;
+	line-height: $box-size;
+	text-align: center;
+	box-sizing: border-box;
+	cursor: default;
+	user-select: none;
+	&::selection {
+		background: none;
+	}
+}
+
+#box-1 {
+	right: 62vw;
+}
+
+#box-2 {
+	left: 62vw;
+}
+
+.reset {
+	position: absolute;
+	height: 30vh;
+	right: calc(25vw - 15vh);
+	top: 50%;
+	transform: translate(50%, -50%);
+	transition: opacity 0.5s;
+	opacity: 1;
+	cursor: pointer;
+	&:hover {
+		opacity: 0.5;
+	}
+	-webkit-user-drag: none;
+}
+
+.share-btn {
+	position: absolute;
+	top: -50%;
+}
