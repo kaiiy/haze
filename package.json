@@ -4,7 +4,7 @@
   "author": "kaiiy",
   "license": "MIT",
   "scripts": {
-    "watch": "webpack --watch",
+    "dev": "webpack --watch",
     "build": "webpack",
     "start": "yarn live-server ./dist --no-browser"
   },
