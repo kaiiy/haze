@@ -1,5 +1,7 @@
 const path = require('path');
 const { VueLoaderPlugin } = require("vue-loader");
+const CopyFilePlugin = require("copy-webpack-plugin");
+const WriteFilePlugin = require("write-file-webpack-plugin");
 
 module.exports = {
     mode: 'production',
@@ -55,6 +57,21 @@ module.exports = {
         ]
     },
     plugins: [
-        new VueLoaderPlugin()
+        new VueLoaderPlugin(),
+        new CopyFilePlugin({
+            patterns: [
+                {
+                    context: "src/pages",
+                    from: "**/*.html",
+                    to: path.resolve(__dirname, "dist")
+                },
+                {
+                    context: "src/img",
+                    from: "**/*",
+                    to: path.resolve(__dirname, "dist/img")
+                },
+            ],
+        }),
+        new WriteFilePlugin()
     ],
 };
