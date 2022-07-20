@@ -3,4 +3,4 @@
 
 謎制作: k
 
-![](./dist/img/visual.png)
+![](./src/img/visual.png)
