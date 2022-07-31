@@ -14,7 +14,7 @@
     "jquery": "^3.6.0",
     "live-server": "git+https://github.com/tapio/live-server#ad22544889298948f99a7f61315dcc56c6ca10e5",
     "normalize.css": "^8.0.1",
-    "sass": "^1.52.2",
+    "sass": "^1.54.0",
     "sass-loader": "^13.0.0",
     "style-loader": "^3.3.1",
     "vue-loader": "^17.0.0",
