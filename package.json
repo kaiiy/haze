@@ -11,7 +11,7 @@
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
-    "jquery": "^3.6.3",
+    "jquery": "^3.6.4",
     "live-server": "git+https://github.com/tapio/live-server#ad22544889298948f99a7f61315dcc56c6ca10e5",
     "normalize.css": "^8.0.1",
     "sass": "^1.59.2",
