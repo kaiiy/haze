@@ -4,34 +4,34 @@ import "../css/haze.scss"
 
 let displayHere = () => {
 	$('.box').css('border', '1px solid black');
-	if (cells[here] == 0) {
+	if (cells[here] === 0) {
 		$('.box').css('background-color', 'white');
 	} else {
 		$('.box').css('background-color', 'black');
 	}
 	if (isRight()) {
-		if (cells[here + 1] == 1) {
+		if (cells[here + 1] === 1) {
 			$('.box').css('border-right', '3px solid black');
 		}
 	} else {
 		$('.box').css('border-right', '3px solid black');
 	}
 	if (isLeft()) {
-		if (cells[here - 1] == 1) {
+		if (cells[here - 1] === 1) {
 			$('.box').css('border-left', '3px solid black');
 		}
 	} else {
 		$('.box').css('border-left', '3px solid black');
 	}
 	if (isUp()) {
-		if (cells[here - width] == 1) {
+		if (cells[here - width] === 1) {
 			$('.box').css('border-top', '3px solid black');
 		}
 	} else {
 		$('.box').css('border-top', '3px solid black');
 	}
 	if (isDown()) {
-		if (cells[here + width] == 1) {
+		if (cells[here + width] === 1) {
 			$('.box').css('border-bottom', '3px solid black');
 		}
 	} else {
@@ -55,7 +55,7 @@ let isDown = () => {
 let canRight = () => {
 	let flag = false;
 	if (isRight()) {
-		if (cells[here + 1] == 0) {
+		if (cells[here + 1] === 0) {
 			flag = true;
 		}
 	}
@@ -64,7 +64,7 @@ let canRight = () => {
 let canLeft = () => {
 	let flag = false;
 	if (isLeft()) {
-		if (cells[here - 1] == 0) {
+		if (cells[here - 1] === 0) {
 			flag = true;
 		}
 	}
@@ -79,7 +79,7 @@ let canUp = () => {
 			case 64:
 				mini_flag = false;
 		}
-		if (cells[here - width] == 0 && mini_flag) {
+		if (cells[here - width] === 0 && mini_flag) {
 			flag = true;
 		}
 	}
@@ -94,7 +94,7 @@ let canDown = () => {
 			case 27:
 				mini_flag = false;
 		}
-		if (cells[here + width] == 0 && mini_flag) {
+		if (cells[here + width] === 0 && mini_flag) {
 			flag = true;
 		}
 	}
@@ -158,9 +158,9 @@ $('html').keyup((e) => {
 				break;
 
 			case 13:
-				if (check[cnt] == here + 1) cnt++;
+				if (check[cnt] === here + 1) cnt++;
 				else cnt = 0;
-				if (cnt == 7) {
+				if (cnt === 7) {
 					$('.displayClear').css('display', 'block');
 					clear_flag = true;
 					displayShareButton();
