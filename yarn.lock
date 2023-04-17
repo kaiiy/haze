@@ -64,6 +64,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jridgewell/resolve-uri@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@jridgewell/resolve-uri@npm:3.1.0"
+  checksum: 8/b5ceaaf9a110fcb2780d1d8f8d4a0bfd216702f31c988d8042e5f8fbe353c55d9b0f55a1733afdc64806f8e79c485d2464680ac48a0d9fcadb9548ee6b81d267
+  languageName: node
+  linkType: hard
+
 "@jridgewell/resolve-uri@npm:^3.0.3":
   version: 3.0.7
   resolution: "@jridgewell/resolve-uri@npm:3.0.7"
@@ -88,6 +95,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jridgewell/sourcemap-codec@npm:1.4.14":
+  version: 1.4.14
+  resolution: "@jridgewell/sourcemap-codec@npm:1.4.14"
+  checksum: 8/61100637b6d173d3ba786a5dff019e1a74b1f394f323c1fee337ff390239f053b87266c7a948777f4b1ee68c01a8ad0ab61e5ff4abb5a012a0b091bec391ab97
+  languageName: node
+  linkType: hard
+
 "@jridgewell/sourcemap-codec@npm:^1.4.10":
   version: 1.4.13
   resolution: "@jridgewell/sourcemap-codec@npm:1.4.13"
@@ -95,7 +109,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.3.7, @jridgewell/trace-mapping@npm:^0.3.9":
+"@jridgewell/trace-mapping@npm:^0.3.17":
+  version: 0.3.18
+  resolution: "@jridgewell/trace-mapping@npm:0.3.18"
+  dependencies:
+    "@jridgewell/resolve-uri": 3.1.0
+    "@jridgewell/sourcemap-codec": 1.4.14
+  checksum: 8/0572669f855260808c16fe8f78f5f1b4356463b11d3f2c7c0b5580c8ba1cbf4ae53efe9f627595830856e57dbac2325ac17eb0c3dd0ec42102e6f227cc289c02
+  languageName: node
+  linkType: hard
+
+"@jridgewell/trace-mapping@npm:^0.3.9":
   version: 0.3.13
   resolution: "@jridgewell/trace-mapping@npm:0.3.13"
   dependencies:
@@ -224,10 +248,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:*, @types/estree@npm:^0.0.51":
+"@types/estree@npm:*":
   version: 0.0.51
   resolution: "@types/estree@npm:0.0.51"
   checksum: a5fbdddce8a2b79477d0cb92d9998e42d5ae096d98ed0245983551423fd849c0e34a9877a2bb503dbd6716265d03f520155c2047996460872f82f25e1811e0c7
+  languageName: node
+  linkType: hard
+
+"@types/estree@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@types/estree@npm:1.0.0"
+  checksum: 8/910d97fb7092c6738d30a7430ae4786a38542023c6302b95d46f49420b797f21619cdde11fa92b338366268795884111c2eb10356e4bd2c8ad5b92941e9e6443
   languageName: node
   linkType: hard
 
@@ -1766,10 +1797,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-module-lexer@npm:^0.9.0":
-  version: 0.9.3
-  resolution: "es-module-lexer@npm:0.9.3"
-  checksum: b62592d654c86254adfcf3cc84ac23a5044c4d55ff32981d6871eb91102455daf241f936ebf09caa6573b1a4f16d7d49ee01df163c2da1e1415bbec3564a4e3d
+"es-module-lexer@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "es-module-lexer@npm:1.2.1"
+  checksum: 8/c4145b853e1491eaa5d591e4580926d242978c38071ad3d09165c3b6d50314cc0ae3bf6e1dec81a9e53768b9299df2063d2e4a67d7742a5029ddeae6c4fc26f0
   languageName: node
   linkType: hard
 
@@ -2428,7 +2459,7 @@ __metadata:
     style-loader: ^3.3.2
     vue: ^3.2.47
     vue-loader: ^17.0.1
-    webpack: ^5.78.0
+    webpack: ^5.79.0
     webpack-cli: ^5.0.1
     webpack-dev-server: ^4.13.2
     write-file-webpack-plugin: ^4.5.1
@@ -4380,6 +4411,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"serialize-javascript@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "serialize-javascript@npm:6.0.1"
+  dependencies:
+    randombytes: ^2.1.0
+  checksum: 8/3c4f4cb61d0893b988415bdb67243637333f3f574e9e9cc9a006a2ced0b390b0b3b44aef8d51c951272a9002ec50885eefdc0298891bc27eb2fe7510ea87dc4f
+  languageName: node
+  linkType: hard
+
 "serve-index@npm:^1.9.1":
   version: 1.9.1
   resolution: "serve-index@npm:1.9.1"
@@ -4826,15 +4866,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser-webpack-plugin@npm:^5.1.3":
-  version: 5.3.3
-  resolution: "terser-webpack-plugin@npm:5.3.3"
+"terser-webpack-plugin@npm:^5.3.7":
+  version: 5.3.7
+  resolution: "terser-webpack-plugin@npm:5.3.7"
   dependencies:
-    "@jridgewell/trace-mapping": "npm:^0.3.7"
-    jest-worker: "npm:^27.4.5"
-    schema-utils: "npm:^3.1.1"
-    serialize-javascript: "npm:^6.0.0"
-    terser: "npm:^5.7.2"
+    "@jridgewell/trace-mapping": ^0.3.17
+    jest-worker: ^27.4.5
+    schema-utils: ^3.1.1
+    serialize-javascript: ^6.0.1
+    terser: ^5.16.5
   peerDependencies:
     webpack: ^5.1.0
   peerDependenciesMeta:
@@ -4844,7 +4884,7 @@ __metadata:
       optional: true
     uglify-js:
       optional: true
-  checksum: 375428be9fed4791cc920fe98301101bf6a1da57e6a6f15963dede94f9c250959e29da2f858e2a9ff54c4a3dd938bd4bc8842d5cb303f62ae2b61c8104a2507c
+  checksum: 8/095e699fdeeb553cdf2c6f75f983949271b396d9c201d7ae9fc633c45c1c1ad14c7257ef9d51ccc62213dd3e97f875870ba31550f6d4f1b6674f2615562da7f7
   languageName: node
   linkType: hard
 
@@ -5224,12 +5264,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.78.0":
-  version: 5.78.0
-  resolution: "webpack@npm:5.78.0"
+"webpack@npm:^5.79.0":
+  version: 5.79.0
+  resolution: "webpack@npm:5.79.0"
   dependencies:
     "@types/eslint-scope": ^3.7.3
-    "@types/estree": ^0.0.51
+    "@types/estree": ^1.0.0
     "@webassemblyjs/ast": 1.11.1
     "@webassemblyjs/wasm-edit": 1.11.1
     "@webassemblyjs/wasm-parser": 1.11.1
@@ -5238,7 +5278,7 @@ __metadata:
     browserslist: ^4.14.5
     chrome-trace-event: ^1.0.2
     enhanced-resolve: ^5.10.0
-    es-module-lexer: ^0.9.0
+    es-module-lexer: ^1.2.1
     eslint-scope: 5.1.1
     events: ^3.2.0
     glob-to-regexp: ^0.4.1
@@ -5249,7 +5289,7 @@ __metadata:
     neo-async: ^2.6.2
     schema-utils: ^3.1.0
     tapable: ^2.1.1
-    terser-webpack-plugin: ^5.1.3
+    terser-webpack-plugin: ^5.3.7
     watchpack: ^2.4.0
     webpack-sources: ^3.2.3
   peerDependenciesMeta:
@@ -5257,7 +5297,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 8/4213e5bcc23e54c2f2a589e8e96f1fb71a2c05d5033ffda6dd8bae32284abfa0eb6b6d0707806e8dcfa48a8fcda2448d3af6c4539061679251d94c0996bebf99
+  checksum: 8/3fbd82dadc75c8f823c900c5d50263830b77e6be6a8abb26eec12f93dec94c2f07fa44c1ef1f28319682404e532d9707ed04ed6cb89af87ca7d544e435d8ef95
   languageName: node
   linkType: hard
 
