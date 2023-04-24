@@ -2454,7 +2454,7 @@ __metadata:
     jquery: ^3.6.4
     live-server: "git+https://github.com/tapio/live-server#ad22544889298948f99a7f61315dcc56c6ca10e5"
     normalize.css: ^8.0.1
-    sass: ^1.60.0
+    sass: ^1.62.0
     sass-loader: ^13.2.2
     style-loader: ^3.3.2
     vue: ^3.2.47
@@ -4318,16 +4318,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.60.0":
-  version: 1.60.0
-  resolution: "sass@npm:1.60.0"
+"sass@npm:^1.62.0":
+  version: 1.62.0
+  resolution: "sass@npm:1.62.0"
   dependencies:
-    chokidar: "npm:>=3.0.0 <4.0.0"
-    immutable: "npm:^4.0.0"
-    source-map-js: "npm:>=0.6.2 <2.0.0"
+    chokidar: ">=3.0.0 <4.0.0"
+    immutable: ^4.0.0
+    source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: efdfa26d6253b63df2966f522a801b0f773878b2648f2ad2d7fad72c416c4e72081d9278e9a2546c614a47cf0c19ebcc90ef0195b7e21c7f364b5d1d07de23d8
+  checksum: 8/d5f606aa25afdf3ed9f316602811a40cf3b29f64cb70ea02f4198ae4288f9687de6fcef9f4fd2d58e06c28282d859aa249bdbf7d7d97a3a6a582eeaa8e5607fa
   languageName: node
   linkType: hard
 
