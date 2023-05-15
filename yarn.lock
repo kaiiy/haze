@@ -1003,13 +1003,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"big.js@npm:^5.2.2":
-  version: 5.2.2
-  resolution: "big.js@npm:5.2.2"
-  checksum: 1c63accd17ba7d86676380280190cf748c6f715b74ddc36a3999d20689f78e59f6f76958fb811d40b57efca8dfaaacdc4508521d06a8a8d1e86194bc0f4b4575
-  languageName: node
-  linkType: hard
-
 "binary-extensions@npm:^1.0.0":
   version: 1.13.1
   resolution: "binary-extensions@npm:1.13.1"
@@ -1741,13 +1734,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emojis-list@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "emojis-list@npm:3.0.0"
-  checksum: 1f66a09f99099edd85d04c6f66d6c826a9c8c7af09c5aeb0be2eda236e7e2269fa6459e6eec404886810c46bd935a7e859e731adccb1ee127b672b706a9f76bc
-  languageName: node
-  linkType: hard
-
 "encodeurl@npm:~1.0.2":
   version: 1.0.2
   resolution: "encodeurl@npm:1.0.2"
@@ -2458,7 +2444,7 @@ __metadata:
     sass-loader: ^13.2.2
     style-loader: ^3.3.2
     vue: ^3.2.47
-    vue-loader: ^17.0.1
+    vue-loader: ^17.1.1
     webpack: ^5.80.0
     webpack-cli: ^5.0.1
     webpack-dev-server: ^4.15.0
@@ -3013,15 +2999,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.2":
-  version: 2.2.3
-  resolution: "json5@npm:2.2.3"
-  bin:
-    json5: lib/cli.js
-  checksum: e298f92c92197e956eb7a93304f74b5b80b4c3fe412f44a1f3d4c966e5ddf2e8ef2ac7ce0b0c40c78735bf2901c29257a653e1da684dae8e7835932e4904d6a0
-  languageName: node
-  linkType: hard
-
 "kind-of@npm:^3.0.2, kind-of@npm:^3.0.3, kind-of@npm:^3.2.0":
   version: 3.2.2
   resolution: "kind-of@npm:3.2.2"
@@ -3098,17 +3075,6 @@ __metadata:
   version: 4.3.0
   resolution: "loader-runner@npm:4.3.0"
   checksum: 933f44df27137a0b3f06928615c9af8d3cde7086e46c23afb25e218f168bc4e9827cb1a9cebe15edb71df3562a97a70c37edadb80c5050fbd2135f85b16a5874
-  languageName: node
-  linkType: hard
-
-"loader-utils@npm:^2.0.0":
-  version: 2.0.4
-  resolution: "loader-utils@npm:2.0.4"
-  dependencies:
-    big.js: "npm:^5.2.2"
-    emojis-list: "npm:^3.0.0"
-    json5: "npm:^2.1.2"
-  checksum: 84384affee014c6b404124509f5550ce2bae3ae111df239e485e737ab3246c95fc84cd8918764471a4be4c64c3ca5bf3bf30e7e40baa5a5f363a043aec3aefa5
   languageName: node
   linkType: hard
 
@@ -5114,13 +5080,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-loader@npm:^17.0.1":
-  version: 17.0.1
-  resolution: "vue-loader@npm:17.0.1"
+"vue-loader@npm:^17.1.1":
+  version: 17.1.1
+  resolution: "vue-loader@npm:17.1.1"
   dependencies:
-    chalk: "npm:^4.1.0"
-    hash-sum: "npm:^2.0.0"
-    loader-utils: "npm:^2.0.0"
+    chalk: ^4.1.0
+    hash-sum: ^2.0.0
+    watchpack: ^2.4.0
   peerDependencies:
     webpack: ^4.1.0 || ^5.0.0-0
   peerDependenciesMeta:
@@ -5128,7 +5094,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 7360795ade02c1846a6b69f6b0f1f2fa378625fa192d6a0f9f5941ca7deea133ba6e25c65aa4e5939f4e6bfc2b075c0b4b5d5a17a5835275da0770befc5bdb41
+  checksum: 8/02b28078a6274f51d9cb864efb42ca3a9cc1b5dfb9d2da40e8193272b47fa1c95380cf98ab49ebe231086c534c2c5294f923f3e38630970572446b2fbc1084c4
   languageName: node
   linkType: hard
 
