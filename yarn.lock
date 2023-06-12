@@ -2437,7 +2437,7 @@ __metadata:
   dependencies:
     copy-webpack-plugin: ^11.0.0
     css-loader: ^6.8.1
-    jquery: ^3.6.4
+    jquery: ^3.7.0
     live-server: "git+https://github.com/tapio/live-server#ad22544889298948f99a7f61315dcc56c6ca10e5"
     normalize.css: ^8.0.1
     sass: ^1.62.1
@@ -2971,10 +2971,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jquery@npm:^3.6.4":
-  version: 3.6.4
-  resolution: "jquery@npm:3.6.4"
-  checksum: b36851196c15c64597ef09d88373688e402496469f52c2214c8148b9bfcdb9aa618d112d50f318d6e61489322509b1305ca89ed8b793d034f7a84920787c2ccb
+"jquery@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "jquery@npm:3.7.0"
+  checksum: 8/907785e133afc427650a131af5fccef66a404885037513b3d4d7d63aee6409bcc32a39836868c60e59b05aa0fb8ace8961c18b2ee3ffdf6ffdb571d6d7cd88ff
   languageName: node
   linkType: hard
 
