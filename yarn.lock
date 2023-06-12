@@ -364,12 +364,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ws@npm:^8.5.1":
-  version: 8.5.3
-  resolution: "@types/ws@npm:8.5.3"
+"@types/ws@npm:^8.5.5":
+  version: 8.5.5
+  resolution: "@types/ws@npm:8.5.5"
   dependencies:
-    "@types/node": "npm:*"
-  checksum: 079fdee163d7cb86d59e5379d2ea6511ba6a46210af420320a4bd52b04b06f86d2c3acc89289f5eae16c8815a562faada8c717fd55a4888c8a5a5f8ce1420112
+    "@types/node": "*"
+  checksum: 8/d00bf8070e6938e3ccf933010921c6ce78ac3606696ce37a393b27a9a603f7bd93ea64f3c5fa295a2f743575ba9c9a9fdb904af0f5fe2229bf2adf0630386e4a
   languageName: node
   linkType: hard
 
@@ -2447,7 +2447,7 @@ __metadata:
     vue-loader: ^17.1.1
     webpack: ^5.80.0
     webpack-cli: ^5.1.3
-    webpack-dev-server: ^4.15.0
+    webpack-dev-server: ^4.15.1
     write-file-webpack-plugin: ^4.5.1
   languageName: unknown
   linkType: soft
@@ -5197,9 +5197,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.15.0":
-  version: 4.15.0
-  resolution: "webpack-dev-server@npm:4.15.0"
+"webpack-dev-server@npm:^4.15.1":
+  version: 4.15.1
+  resolution: "webpack-dev-server@npm:4.15.1"
   dependencies:
     "@types/bonjour": ^3.5.9
     "@types/connect-history-api-fallback": ^1.3.5
@@ -5207,7 +5207,7 @@ __metadata:
     "@types/serve-index": ^1.9.1
     "@types/serve-static": ^1.13.10
     "@types/sockjs": ^0.3.33
-    "@types/ws": ^8.5.1
+    "@types/ws": ^8.5.5
     ansi-html-community: ^0.0.8
     bonjour-service: ^1.0.11
     chokidar: ^3.5.3
@@ -5240,7 +5240,7 @@ __metadata:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: 8/6fe375089b061be2e4ed6d6a8b20743734d304cd0c34757271c6685f97642b028f253c627f899b629c97c067c294484f906e394fd1c104ee795237b8725f2701
+  checksum: 8/cd0063b068d2b938fd76c412d555374186ac2fa84bbae098265212ed50a5c15d6f03aa12a5a310c544a242943eb58c0bfde4c296d5c36765c182f53799e1bc71
   languageName: node
   linkType: hard
 
