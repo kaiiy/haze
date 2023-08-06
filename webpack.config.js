@@ -4,12 +4,12 @@ const CopyFilePlugin = require("copy-webpack-plugin");
 const WriteFilePlugin = require("write-file-webpack-plugin");
 
 module.exports = {
-    mode: 'production',
+    mode: 'development',
     entry: {
         index: './src/js/index.js',
         hint: './src/js/hint.js',
         allclear: './src/js/allclear.js',
-        haze1: './src/js/stages/haze1.js',
+        haze1: './src/js/stages/haze1.ts',
         haze2: './src/js/stages/haze2.js',
         haze3: './src/js/stages/haze3.js',
         haze4_1: './src/js/stages/haze4_1.js',
@@ -40,8 +40,16 @@ module.exports = {
             chunks: 'initial'
         }
     },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js'],
+    },
     module: {
         rules: [
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
+            },
             {
                 test: /\.s?css$/,
                 use: [
