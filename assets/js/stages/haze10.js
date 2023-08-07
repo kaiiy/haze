@@ -1,6 +1,7 @@
-window.jQuery = window.$ = require('jquery');
+import $ from 'jquery';
+
 import 'normalize.css'
-import "../../css/haze.scss"
+import "/assets/css/haze.scss"
 
 let displayHere = () => {
 	switch (currentFace[here][0]) {

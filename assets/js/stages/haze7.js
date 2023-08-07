@@ -1,6 +1,7 @@
-window.jQuery = window.$ = require('jquery');
+import $ from 'jquery';
+
 import 'normalize.css'
-import "../../css/haze.scss"
+import "/assets/css/haze.scss"
 
 let displayHere = () => {
 	$('.box').css('border', '1px solid black');
@@ -149,13 +150,13 @@ let displayShareButton = () => {
 let width = 11;
 let height = 7;
 let cells = [
-	0,1,0,1,0,1,0,1,0,1,0,
-	0,1,0,0,0,1,0,0,0,1,0,
-	0,1,0,1,0,0,0,1,0,0,0,
-	0,0,0,1,0,0,0,1,0,1,0,
-	0,1,0,0,0,1,0,1,0,0,0,
-	0,1,0,1,0,1,0,1,0,0,0,
-	0,1,0,1,0,1,0,1,0,1,0
+	0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+	0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0,
+	0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0,
+	0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0,
+	0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0,
+	0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0,
+	0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0
 ];
 let here = 4;
 let point = [here % width, Math.floor(here / width)];

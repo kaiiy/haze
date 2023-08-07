@@ -1,9 +1,7 @@
-"use strict";
-import jQuery from 'jquery';
+import $ from 'jquery';
 
-window.jQuery = window.$ = jQuery
 import 'normalize.css'
-import "../../css/haze.scss"
+import "/assets/css/haze.scss"
 
 const isRightBoundary = (index, width) => {
 	return index % width !== width - 1;

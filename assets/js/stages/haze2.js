@@ -1,7 +1,7 @@
-window.jQuery = window.$ = require('jquery');
-import 'normalize.css'
-import "../../css/haze.scss"
+import $ from 'jquery';
 
+import 'normalize.css'
+import "/assets/css/haze.scss"
 
 let displayHere = () => {
 	$('.box').css('border', '1px solid black');
