@@ -1,6 +1,7 @@
 "use strict";
+import jQuery from 'jquery';
 
-window.jQuery = window.$ = require('jquery');
+window.jQuery = window.$ = jQuery
 import 'normalize.css'
 import "../../css/haze.scss"
 
