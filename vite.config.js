@@ -8,6 +8,7 @@ export default defineConfig({
     root,
     plugins: [vue()],
     publicDir: resolve(__dirname, 'public'),
+    base: "/haze",
     build: {
         outDir: resolve(__dirname, 'dist'),
         emptyOutDir: true,
