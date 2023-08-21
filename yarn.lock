@@ -253,13 +253,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-vue@npm:^4.2.3":
-  version: 4.2.3
-  resolution: "@vitejs/plugin-vue@npm:4.2.3"
+"@vitejs/plugin-vue@npm:^4.3.2":
+  version: 4.3.2
+  resolution: "@vitejs/plugin-vue@npm:4.3.2"
   peerDependencies:
     vite: ^4.0.0
     vue: ^3.2.25
-  checksum: 1c70c1cd18f6ba3ed6cdf1391a0d441dd8e9a89c728f7eb20d74c84e75fef1fdc651836cce9bf59a8a48e5b2caebf6ca60a908fdd8527a476a750afd2b458592
+  checksum: 481e15daf479fbdc0e83147be0041ffa9bc4811417af557dd56617dfbd106e0ae13005c3d53b0e10e00046efe1c0f84be08aef7c3ea117d1edfd7c2bced6d294
   languageName: node
   linkType: hard
 
@@ -918,7 +918,7 @@ __metadata:
   resolution: "haze@workspace:."
   dependencies:
     "@types/jquery": ^3.5.16
-    "@vitejs/plugin-vue": ^4.2.3
+    "@vitejs/plugin-vue": ^4.3.2
     jquery: ^3.7.0
     normalize.css: ^8.0.1
     sass: ^1.65.1
