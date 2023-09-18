@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/jquery": "^3.5.17",
     "@vitejs/plugin-vue": "^4.3.4",
-    "sass": "^1.66.1",
+    "sass": "^1.67.0",
     "typescript": "^5.2.2",
     "vite": "^4.4.9"
   },
