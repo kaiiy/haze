@@ -237,12 +237,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jquery@npm:^3.5.19":
-  version: 3.5.19
-  resolution: "@types/jquery@npm:3.5.19"
+"@types/jquery@npm:^3.5.22":
+  version: 3.5.22
+  resolution: "@types/jquery@npm:3.5.22"
   dependencies:
     "@types/sizzle": "*"
-  checksum: 0298e53a353089e2abae4be2f660b5f2bfb4797464623701c5c2f2c911317b554f1887c2c3d587d0f724d70a3fb5e31907bf7fa5d96df33af07e2842660ef52a
+  checksum: b81c95e27bb30686c1ad5d3f414781243d0cbb468b91d5584dedd3d3ca07ac99796d876e257a7246d6d9b69916bbb0cd0508142ab9f88848605c6d431144d729
   languageName: node
   linkType: hard
 
@@ -917,7 +917,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "haze@workspace:."
   dependencies:
-    "@types/jquery": ^3.5.19
+    "@types/jquery": ^3.5.22
     "@vitejs/plugin-vue": ^4.4.0
     jquery: ^3.7.1
     normalize.css: ^8.0.1
