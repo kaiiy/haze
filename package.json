@@ -3,6 +3,7 @@
   "description": "In haze",
   "author": "kaiiy",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,14 +12,14 @@
   "dependencies": {
     "jquery": "^3.7.1",
     "normalize.css": "^8.0.1",
-    "vue": "^3.3.4"
+    "vue": "^3.4.29"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.25",
-    "@vitejs/plugin-vue": "^4.4.0",
-    "sass": "^1.69.4",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0"
+    "@types/jquery": "^3.5.30",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "^1.77.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
   },
   "packageManager": "yarn@3.6.0",
   "volta": {
