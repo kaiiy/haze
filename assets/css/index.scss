@@ -1,44 +1,12 @@
+@import "common";
+
 body {
 	background-color: white;
 	font-family: serif;
 }
-* {
-	user-select: none;
-}
 
-.sp-caution {
-	display: none;
-}
+@include caution-overlay(sp-caution, $breakpoint-sp, 10);
 
-@media screen and (max-width: 700px) {
-	.sp-caution {
-		display: block;
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: white;
-		background-size: cover;
-		background-attachment: fixed;
-		z-index: 10;
-		font-size: 22px;
-		color: black;
-		p {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			display: block;
-			width: 70%;
-		}
-	}
-	body {
-		overflow: hidden;
-		width: 100%;
-		height: 100%;
-	}
-}
 
 .main-container {
 	display: flex;
